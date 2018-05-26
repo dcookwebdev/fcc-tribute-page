@@ -1,0 +1,38 @@
+body {
+  margin: 3em 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  color: #333;
+}
+
+h1,
+h2,
+.quote {
+  font-family: "Alegreya", serif;
+}
+
+h2 { 
+   /* just to provide some vertical spacing */
+  margin-top: 2em;
+  margin-bottom: 0.5em;
+}
+
+.quote {
+  background-color: #333;
+  border-bottom: 0.3em solid red;
+  color: white;
+  font-size: 2em;
+  text-align: center;
+  margin-top: 1.5em;
+}
+
+.quote-text {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 0.8em;
+}
+
+.text-content {
+  /* for readability */
+  max-width: 40em;
+} 
