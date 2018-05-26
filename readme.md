@@ -1,10 +1,10 @@
-View full page here: [Tribute Page](https://dcookwebdev.github.io/fcc-tribute-page/)
-
-*Completed in Fall of 2017.*
-
 # FCC Project: Tribute Page
 
 For this project I was supposed to create a tribute page to someone or perhaps something famous. 
+
+View full page here: [Tribute Page](https://dcookwebdev.github.io/fcc-tribute-page/)
+
+*Completed in Fall of 2017.*
 
 ### The Assignment
 There are some simple goals for the project which can be found [here](./challenge.md):
