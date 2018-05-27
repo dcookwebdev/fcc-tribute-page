@@ -36,3 +36,8 @@ h2 {
   /* for readability */
   max-width: 40em;
 } 
+
+#image {
+  display: block;
+  margin: 0 auto;
+}
