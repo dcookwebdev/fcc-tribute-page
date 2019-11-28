@@ -18,13 +18,13 @@ h2,
 
 
 .quote {
-  @apply flex justify-center text-white border-b-8 text-2xl text-center mt-10 mb-10 p-6;
+  @apply flex justify-center text-white border-b-8 text-3xl leading-snug text-center mt-10 mb-10 p-6;
   background-color: #333;
   border-color: #E71D36;
 }
 
 .quote > p {
-  @apply max-w-4xl
+  @apply max-w-sm 
 }
 
 .text-section {

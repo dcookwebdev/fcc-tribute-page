@@ -11419,7 +11419,8 @@ h2,
           justify-content: center;
   color: #fff;
   border-bottom-width: 8px;
-  font-size: 1.5rem;
+  font-size: 1.875rem;
+  line-height: 1.375;
   text-align: center;
   margin-top: 2.5rem;
   margin-bottom: 2.5rem;
@@ -11429,7 +11430,7 @@ h2,
 }
 
 .quote > p {
-  max-width: 56rem
+  max-width: 24rem
 }
 
 .text-section {
