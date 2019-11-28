@@ -15,5 +15,9 @@
   "bugs": {
     "url": "https://github.com/dcookwebdev/fcc-tribute-page/issues"
   },
-  "homepage": "https://github.com/dcookwebdev/fcc-tribute-page#readme"
+  "homepage": "https://github.com/dcookwebdev/fcc-tribute-page#readme",
+  "devDependencies": {
+    "tailwind": "^4.0.0",
+    "tailwindcss": "^1.1.4"
+  }
 }

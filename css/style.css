@@ -1,6 +1,11 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
+
 body {
-  margin: 3em 0;
-  padding: 0;
   font-family: "Roboto", sans-serif;
   color: #333;
 }
@@ -11,37 +16,25 @@ h2,
   font-family: "Alegreya", serif;
 }
 
-h2 { 
-   /* just to provide some vertical spacing */
-  margin-top: 2em;
-  margin-bottom: 0.5em;
-}
 
 .quote {
+  @apply flex justify-center text-white border-b-8 text-2xl text-center mt-10 mb-10 p-6;
   background-color: #333;
-  border-bottom: 0.3em solid red;
-  color: white;
-  font-size: 2em;
-  text-align: center;
-  margin-top: 1.5em;
+  border-color: #E71D36;
 }
 
-.quote-text {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 0.8em;
+.quote > p {
+  @apply max-w-4xl
 }
 
-.text-content {
-  /* for readability */
-  max-width: 40em;
-} 
-
-#image {
-  display: block;
-  margin: 0 auto;
+.text-section {
+  @apply p-2 max-w-2xl pt-4 m-auto
 }
 
-footer {
-  margin-top: 10em;
+h2 {
+  @apply text-3xl p-2 pb-2
+}
+
+p {
+  @apply p-2
 }
